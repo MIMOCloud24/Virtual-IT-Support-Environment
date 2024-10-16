@@ -2,7 +2,7 @@
 
 ### Step 1: Install VMware Workstation Pro
 1. Visit the [VMware's website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). 
-2. Download and install VMware Workstation Pro. You will be asked to create an account. Once you do download VMware WorkStation Pro.
+2. Download and install VMware Workstation Pro. You will be asked to create an account. Once you do, download VMware WorkStation Pro.
 3. When installing choose "for personal use" option to get free license.
 
 ![VMware Download Page](../Images/Screenshots/Vmware_Download_Page.png)
@@ -21,6 +21,7 @@
 2. You can use below Microsoft Generic keys to activate the windows.
 
 ![Microsoft windows Server Generic Keys](../Images/Screenshots/Windows_server_generic_keys.png)
+![Microsoft windows 10 & 11 Generic Keys](../Images/Screenshots/Windows_10_&_11_generic_keys.png)
 
 3. Open **VMware Workstation** and click **Create a New Virtual Machine**.
 4. Select **Custom (Advanced)** for the configuration type. Click next twice.
@@ -36,13 +37,13 @@
 
 ![Vm Name](../Images/Screenshots/VM-Name.png)
 
-8- Check UEFI and Secure Boot and then click next.
-9- chose how many processors and cores you want to assign your VM. (depends of what kind of processor you are running). Click Next.
-10- Specify how much you want for your VM. Click Next.
-11- choose which network connection you want. I chose NAT so the VMs share the host machine’s IP address to access external networks. Click Next 3 times.
-12- Create new virtual disk. click Next.
-13- Specify your VM disk capacity. Click Next.
-14- choose a path where you want your virtual disk stored. Click Next.
+8- Check UEFI and Secure Boot and then click next.<br>
+9- chose how many processors and cores you want to assign your VM. (depends of what kind of processor you are running). Click Next.<br>
+10- Specify how much RAM you want for your VM. Click Next.<br>
+11- choose which network connection you want. I chose NAT so the VMs share the host machine’s IP address to access external networks. Click Next 3 times.<br>
+12- Create new virtual disk. click Next.<br>
+13- Specify your VM disk capacity. Click Next.<br>
+14- choose a path where you want your virtual disk stored. Click Next.<br>
 15- If you want to change anything or add/remove hardware, click Customize Hardware, otherwise click finish. 
 
 
@@ -50,13 +51,13 @@
 
 ### Step 2. Installing Windows Server
 
-After setting up the VM from first step, we got to the Microsoft windows installation Page.
+After setting up the VM from first step, The VM will boot to Microsoft windows installation Page.
 
 ![Windows Installation screen](../Images/Screenshots/Windows_Installation.png)
 
 1- Follow through the process. The ISO file I am using has 4 versions of Windows server 2022, I am choosing the standard version with Desktop experience.
 
-![OS selection](../Images/Screenshots/Os-Version.png)
+![OS selection](../Images/Screenshots/OS-Version.png)
 
 2- Follow through the steps.
 
@@ -93,7 +94,7 @@ Process of installing Windows Client is similar to Installing Windows Server.
 ![Windows 10 Pro Installation](../Images/Screenshots/Windows_10_Pro_Install.png)
 ![Windows 10 Pro Setup](../Images/Screenshots/Windows_10_Setup.png)
 
-4- You will be asked to either log in using Microsoft Account, I choose a local account.
+4- You will be asked to log in using Microsoft Account, I choose a local account.<br>
 5- Follow the steps, choose a computer name, set up password. The windows will apply settings and load up.
 
 This concludes our Windows 10 Client Installation on VMware VM.
