@@ -57,7 +57,7 @@ After setting up the VM from first step, The VM will boot to Microsoft windows i
 
 1- Follow through the process. The ISO file I am using has 4 versions of Windows server 2022, I am choosing the standard version with Desktop experience.
 
-![OS selection](../Images/Screenshots/OS-Version.png)
+![OS Selection](../Images/Screenshots/OS_Version.png)
 
 2- Follow through the steps.
 
