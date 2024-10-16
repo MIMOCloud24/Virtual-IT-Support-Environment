@@ -3,12 +3,12 @@
 ## Introduction  
 
 
-Now that we have our Windows Server 2022 installed, We will configure some essential settings. check [Setup Instructions](./Documentation/Setup_Instructions.md) file.<br>
+Now that we have our Windows Server 2022 installed, We will configure some essential settings. check [Setup Instructions](./Documentation/Setup_Instructions.md).<br>
 
  Before installing Active Directory Domain Services (AD DS) on the Windows Server, it’s important to configure essential settings to ensure a stable and secure environment. In this section, we will set a static IP address, perform Windows updates, and temporarily disable the firewall to avoid any installation conflicts. These steps will prepare the server for its role as a Domain Controller in the upcoming phases.
 
 
-## Step 1: Checking our Local Server Settings:
+## Step 1 : Checking our Local Server Settings:
 
 - Open Server Manager → Local Server.  
 
