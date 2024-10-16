@@ -18,7 +18,7 @@ Now that we have our Windows Server 2022 installed, We will configure some essen
 Our server has a default name. Firewall is on. Remote Desktop is disabled. IPv4 address assigned by DHCP, and IPv6 is enabled. Server was never updated. Microsoft Defender Antivirus is on and Time Zone is set to  Pacific_Time.
 
 
-## Step 2: Configure Static IP Address  
+## Step 2 : Configure Static IP Address  
 
 ### VM Network Configuration
 
@@ -65,7 +65,7 @@ Now that we have an understanding of how VMware network works lets set it up.
 
 ![VMware network Editor 5](../Images/Screenshots/VMware_Network_5.png)
 
-7. You can see starting and ending IP addresses for your DHCP setting. I changed my starting IP address to 192.168.66.99 so I can you 192.168.66.100 as a static IP for my Server. Click OK.  
+7. You can see starting and ending IP addresses for your DHCP setting. I changed my starting IP address to 192.168.66.99 so I can use 192.168.66.100 as the static IP for my Server. Click OK.  
 
 ![VMware network Editor 6](../Images/Screenshots/VMware_Network_6.png)
 
@@ -98,21 +98,21 @@ I use the loopback IP (127.0.0.1) as the primary DNS on the Domain Controller to
 
 ![Static Ip Configuration](../Images/Screenshots/Static_IP.png)
 
-6. Now We check our ip configuration on Cmd and ping to test connectivity. 
+6. Now Lets check our IP configuration using Cmd and ping to google.com for example to test our connectivity.  
   6.1. type cmd on search bar.  
   6.2. open cmd.  
-  6.3. type ipconfig /all and press enter  
+  6.3. type ipconfig /all and press enter.  
 
 ![IP Config status](../Images/Screenshots/IP_Config.png)
 
-  6.4. We can see now that ou static IP configuration applied  
-  6.5. type ping google.com to check connectivity to public internet 
+  6.4. We can see that our static IP configuration is applied.  
+  6.5. Type ping google.com to check connectivity to public internet.  
 
   ![Pinging Google](../Images/Screenshots/ping_google.png)
 
-  pinging to google was successful therefore We have successfully completed our Static Ip configuration.  
+  Pinging to google was successful, therefore We have successfully completed our Static Ip configuration.  
 
-## Step 3: Verifying and adjusting our Server clock.
+## Step 3 : Verifying and adjusting our Server clock.
 
 1. Open Server Manager → Local Server.  
 2. Scroll to the right and click Time Zone.  
@@ -122,7 +122,7 @@ I use the loopback IP (127.0.0.1) as the primary DNS on the Domain Controller to
 3. Make sure you time zone, date and time are correct, if not change it to your current time and Time Zone.
 
 
-## Step 4: Update Windows Server
+## Step 4 : Update Windows Server
 
 1. Go to Settings → Update & Security → Windows Update. | or  Open Server Manager → Local Server →Scroll to the right and click on Last installed Updates.  
 2. Click Check for updates → Install any available updates.  It will take a minute to download updates.  
@@ -130,10 +130,10 @@ I use the loopback IP (127.0.0.1) as the primary DNS on the Domain Controller to
 ![Windows Update](../Images/Screenshots/Windows_Update_Install.png)
 
 3. Restart the server if needed.  
-4. Once server is rebooted and updates are installed. We go back and check if there are any more updates.  
+4. Once server is rebooted and updates are installed. We go back and check if there are any more updates to install.  
 
 
-## Step 3: Disable Windows Firewall Temporarily
+## Step 5 : Disable Windows Firewall Temporarily
 
 ### Disabling the Firewall During AD Installation:  
 
