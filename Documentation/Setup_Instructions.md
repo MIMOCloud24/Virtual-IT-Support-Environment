@@ -9,8 +9,9 @@
 
 ![VMware Download Page](../Images/Screenshots/Vmware_Download_Page.png)
 ![VMware](../Images/Screenshots/Vmware_Installed.png)
+
 4. It would be a good idea to organize vm's and virtual drives on separate folders.
-![VM's and Virtual Drives folders(The path where they would be installed](../Images/Sreenshots/VM's_&_Harddrives_folders.png)
+![VM's and Virtual Drives folders(The path where they would be installed](../Images/Screenshots/VM's_&_Harddrives_folders.png)
 
 - Create virtual machines for Windows Server and Windows clients. (I used Windows server 2022 and Windows 10). You can download windows server 2022 and windows 11 from [Microsoft's website](https://www.microsoft.com/en-us/evalcenter).
 ### 1.2. Configure VMware Virtual Network
