@@ -55,7 +55,7 @@ This document provides a step by step guide for setting up a comprehensive virtu
 
 ### Step 3. Installing Windows Server
 
-After setting up the VM from first step, The VM will boot to Microsoft windows installation Page.
+After setting up the VM in the second step, The VM will boot to Microsoft windows installation Page.
 
 ![Windows Installation screen](../Images/Screenshots/Windows_Installation.png)
 
@@ -98,8 +98,8 @@ Process of installing Windows Client is similar to Installing Windows Server.
 ![Windows 10 Pro Installation](../Images/Screenshots/Windows_10_Pro_Install.png)
 ![Windows 10 Pro Setup](../Images/Screenshots/Windows_10_Setup.png)
 
-4- You will be asked to log in using Microsoft Account, I choose a local account.<br>
-5- Follow the steps, choose a computer name, set up password. The windows will apply settings and load up.
+4- You will be asked to log in using Microsoft Account, I chose a local account.<br>
+5- Follow the steps, create a computer name, set up password. The windows will apply settings and load up.
 
 This concludes our Windows 10 Client Installation on VMware VM.
 
@@ -109,7 +109,9 @@ This concludes our Windows 10 Client Installation on VMware VM.
 
 ### Next Steps
 
-With the virtual environment now set up and the operating systems installed on your VMs, the next phase of the project is to configure Windows Server as a Domain Controller by installing and setting up Active Directory Domain Services (AD DS). In this phase, you’ll create a domain, manage users and organizational units (OUs), and begin configuring Group Policies to manage and secure your network. Ensure that your VMs are fully operational before proceeding to this critical step.
+With the virtual environment now set up and the operating systems installed on your VMs, the next phase of the project is to configure Windows Server as a Domain Controller by installing and setting up Active Directory Domain Services (AD DS). However, Before installing Active Directory Domain Services (AD DS) on the Windows Server, it’s important to configure essential settings to ensure a stable and secure environment. In this phase, we will set a static IP address, perform Windows updates, and temporarily disable the firewall to avoid any installation conflicts. These steps will prepare the server for its role as a Domain Controller in the upcoming phases. Ensure that your VMs are fully operational before proceeding to this critical step. 
+
+Click on [Pre Configuration Tasks Before Installing AD](./Documentation/Pre-Configuration_Tasks_Before_Installing_AD.md) to move to next phase.
 
 
 

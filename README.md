@@ -14,7 +14,7 @@ This project simulates a small business IT helpdesk environment using VMware. It
 ## Documentation
 - [Setup Instructions](./Documentation/Setup_Instructions.md)
 - [Pre Configuration Tasks Before Installing AD](./Documentation/Pre-Configuration_Tasks_Before_Installing_AD.md)
-- [Active Directory Configuration](./Documentation/AD_Configuration.md)
+- [Active Directory Installation & Configuration](./Documentation/AD_Configuration.md)
 - [Network Configuration](./Documentation/Network_Configuration.md)
 - [Group Policy Management](./Documentation/Group_Policy_Management.md)
 - [Backup and Restore Processes](./Documentation/Backup_Restore.md)
