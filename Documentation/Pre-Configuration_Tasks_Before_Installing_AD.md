@@ -146,3 +146,5 @@ During Active Directory (AD) installation, certain ports and services need to be
 ### Next Step:
 
 After completing these tasks, proceed with Active Directory Domain Services (AD DS) installation as outlined in the next phase.
+
+Click on [Active Directory Installation & Configuration](./AD_Configuration.md) to move to next phase.
