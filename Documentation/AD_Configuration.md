@@ -10,7 +10,7 @@ In this phase, I will install and configure Active Directory Domain Services (AD
 1. Open Server Manager → Local Server.  
 2. Next to Computer Name, click the current server name.  
 
-![Rename Server](../Images/Screenshots/Rename_server.png)
+![Rename Server](../Images/Screenshots/Rename-server.png)
 
 3. Click on Change --> Enter the new server name (DC1) and then click OK.  
 4. Restart the server.  
@@ -108,4 +108,6 @@ This confirms that the DNS configuration is working correctly for my Active Dire
 ### Summary
 
 In this phase, I have successfully installed and configured Active Directory Domain Services (AD DS) and promoted my server to a Domain Controller. DNS is now configured to work alongside AD, ensuring proper name resolution within the domain. I am now ready to proceed to the next phase, where I will configure Organizational Units (OUs), manage users, and set up Group Policies.
+
+Click on [Group Policy Management](./Group_Policy_Management.md) to move to next phase.
 
