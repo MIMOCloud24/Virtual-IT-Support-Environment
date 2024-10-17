@@ -111,7 +111,7 @@ This concludes our Windows 10 Client Installation on VMware VM.
 
 With the virtual environment now set up and the operating systems installed on your VMs, the next phase of the project is to configure Windows Server as a Domain Controller by installing and setting up Active Directory Domain Services (AD DS). However, Before installing Active Directory Domain Services (AD DS) on the Windows Server, it’s important to configure essential settings to ensure a stable and secure environment. In this phase, we will set a static IP address, perform Windows updates, and temporarily disable the firewall to avoid any installation conflicts. These steps will prepare the server for its role as a Domain Controller in the upcoming phases. Ensure that your VMs are fully operational before proceeding to this critical step. 
 
-Click on [Pre Configuration Tasks Before Installing AD](./Documentation/Pre-Configuration_Tasks_Before_Installing_AD.md) to move to next phase.
+Click on [Pre Configuration Tasks Before Installing AD](./Pre-Configuration_Tasks_Before_Installing_AD.md) to move to next phase.
 
 
 
