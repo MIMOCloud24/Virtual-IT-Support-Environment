@@ -1,4 +1,8 @@
-## Phase 1: Virtual Environment Setup
+# Introduction  
+
+This document provides a step by step guide for setting up a comprehensive virtual IT environment using VMware. The guide includes installing and configuring virtual machines for Windows Server and client systems, networking configuration, and preparing the server for Active Directory Domain Services (AD DS). By following these instructions, you'll establish the foundation for a fully functional IT support environment that simulates a real-world small business setup.  
+
+## Phase 1: Virtual Environment Setup  
 
 ### Step 1: Install VMware Workstation Pro
 1. Visit the [VMware's website](https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion). 
@@ -12,7 +16,7 @@
 
 ![VM's and Virtual Drives folders(The path where they would be installed](../Images/Screenshots/VM's_&_Harddrives_folders.png)
 
-## Step 2: Creating the windows server Virtual Machine 
+### Step 2: Creating the windows server Virtual Machine 
 
 1. Download ISO file of windows server 2022 and windows 10 or 11 from [Microsoft's Website](https://www.microsoft.com/en-us/evalcenter)
 
@@ -49,7 +53,7 @@
 
 ![Vm Hardware Configuration](../Images/Screenshots/Vm_hardware_Configuration.png)
 
-### Step 2. Installing Windows Server
+### Step 3. Installing Windows Server
 
 After setting up the VM from first step, The VM will boot to Microsoft windows installation Page.
 
@@ -76,7 +80,7 @@ After setting up the VM from first step, The VM will boot to Microsoft windows i
 ![Windows Server ](../Images/Screenshots/Windows_Server.png)
 
 
-### Step 3: Installing Windows Clients
+### Step 4: Installing Windows Clients
 
 Process of installing Windows Client is similar to Installing Windows Server.
 
