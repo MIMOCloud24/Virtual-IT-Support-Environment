@@ -60,7 +60,7 @@ I will be creating 2 users for each department.
 
 5. Close the editor and ensure the GPO is linked to the correct OU or domain.  
 
-- Linked the policy to the domain so it will inherited buy everyone in the domain. 
+- Linked the policy to the domain so it will be inherited by everyone in the domain. 
 
 ![GPO Linked](../Images/Screenshots/GPO_inheritance.png)  
 
@@ -169,4 +169,4 @@ This confirms that the password policy is being enforced and applied.
 
 In this phase, we successfully created Organizational Units (OUs) for logical management, added user accounts for each department, and implemented Group Policy Objects (GPOs) to enforce password policies and other security settings. These steps establish centralized control over users and computers, enhancing network management and security within the domain. The environment is now ready for further configuration, including software deployment and network management.  
 
-Click on [Software Deployment via Group Policy](./Software_Deployment_via_Group_Policy.md) to move to next phase.
+Click on [Software Deployment via Group Policy](./Software_Deployment_via_Group_Policy.md) to move to next phase.  
