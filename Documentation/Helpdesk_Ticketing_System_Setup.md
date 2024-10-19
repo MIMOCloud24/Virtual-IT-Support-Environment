@@ -13,12 +13,12 @@ This phase will involve configuring a helpdesk ticketing system to streamline IT
 
   - Ensure your server supports:  
     - Web server (Apache or IIS)  
-    - PHP (v7.2 to 8.1)  
+    - PHP (v8.0 to 8.2)  
     - MySQL Database  
 
 ### Step 3: Download:     
 
-  1. Go to [XAMPP Installers and Downloads](https://www.apachefriends.org/).  
+  1. Go to [XAMPP Installers and Downloads](https://www.apachefriends.org/) and download it.  
 
   ![XAMPP Download Page](../Images/Screenshots/XAMPP_Download.png)  
 
@@ -58,24 +58,20 @@ This phase will involve configuring a helpdesk ticketing system to streamline IT
 
   2. Click on SQL Tab and type the following to create a database then click on Go:  
 
-      CREATE DATABASE osticket_db;
-      CREATE USER 'osticket_user'@'localhost' IDENTIFIED BY 'password';
-      GRANT ALL PRIVILEGES ON osticket_db.* TO 'osticket_user';
-      FLUSH PRIVILEGES;
+      CREATE DATABASE osticket_db;  
+      CREATE USER 'osticket_user'@'localhost' IDENTIFIED BY 'password';  
+      GRANT ALL PRIVILEGES ON osticket_db.* TO 'osticket_user';  
+      FLUSH PRIVILEGES;  
 
-
-  The SQL script above is used to create a new database for the osTicket installation where the database we named it osticket_db.  
-  Create a new MySQL user: osticket_user with a password 'password'. Change it to your own password. This user and password is to access the database from localhost.  
-  The third line of the script is to grant full privileges to the user created for the database created.  
-  The forth line of the script is to refresh MySQL's privilege table to ensure changes take effect.  
-  The script is written in SQL (Structured Query Language), used to manage databases.  
+  The SQL script above is used to create a new database for the osTicket installation where we named the database osticket_db.  
+  We created osticket_user as the user. Replace 'password' with your own chosen password.  
 
   ![DB Created](../Images/Screenshots/db_created.png)  
 
 
 ### Step 7: osTicket Installation:  
 
-  1. Open http://localhost/osticket/upload in your browser. You’ll be guided through the installation process.  
+  1. Open http://localhost/osticket/upload/setup/install.php in your browser. You’ll be guided through the installation process.  
 
   ![osTicket Installation](../Images/Screenshots/osTicket_Installation.png)  
 
@@ -97,8 +93,8 @@ This phase will involve configuring a helpdesk ticketing system to streamline IT
     - MySQL Username. (osticket_user).  
     - MySQL Password. The password we created for the database earlier.  
 
-    ![DB System Settings](../Images/Screenshots/db_system_settings.png)  
-    ![DB Settings](../Images/Screenshots/db_settings.png)  
+  ![DB System Settings](../Images/Screenshots/db_system_settings.png)  
+  ![DB Settings](../Images/Screenshots/db_settings.png)  
 
   6. Click 'Install Now'.  
 
@@ -122,13 +118,15 @@ This phase will involve configuring a helpdesk ticketing system to streamline IT
 
     - Admin Panel URL: http://localhost/osticket/scp.  
 
-    ![osTicket Login](../Images/Screenshots/osTicket_login.png)  
+![osTicket Login](../Images/Screenshots/osTicket_login.png)  
 
   3. Post-Installation Configuration:  
 
-    - Email Setup: Go to Admin Panel > Settings > Emails and configure the email settings. This allows osTicket to send and receive tickets via email.  
+    - Email Setup: Go to Admin Panel > Settings > Emails and configure the email settings. This allows 
+    osTicket to send and receive tickets via email.  
 
-    - Departments and Help Topics: Create departments and help topics under Agents > Departments and Manage > Help Topics.  
+    - Departments and Help Topics: Create departments and help topics under Agents > Departments and 
+    Manage > Help Topics.  
 
     - Ticket Assignment: Set up automatic ticket assignment rules under Admin Panel > Settings > Tickets.  
 
@@ -136,9 +134,10 @@ This phase will involve configuring a helpdesk ticketing system to streamline IT
 
     - Define roles for your agents, set permissions, and assign users to different roles under Agents > Roles.  
 
-    ![osTicket](../Images/Screenshots/osTicket.png)  
+![osTicket](../Images/Screenshots/osTicket.png)  
 
-    Once these initial configurations are complete, you can begin testing osTicket by creating tickets and seeing how they are processed by the system!  
+    Once these initial configurations are complete, you can begin testing osTicket by creating tickets and 
+    seeing how they are processed by the system!  
 
 ### Summary  
 
