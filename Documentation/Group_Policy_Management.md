@@ -164,6 +164,8 @@ This confirms that the password policy is being enforced.
 
 This confirms that the password policy is being enforced and applied.  
 
+**We can turn the firewall back on.**
+
 
 ## Summary  
 
