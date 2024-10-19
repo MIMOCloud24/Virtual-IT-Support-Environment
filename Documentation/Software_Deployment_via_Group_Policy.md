@@ -73,9 +73,9 @@ then updates the gpo on the client machine. Or you can just use the below testin
 
 In this phase, we successfully deployed software via Group Policy to domain computers. We created a shared folder 
 
-on the domain controller, set appropriate permissions, and used GPO to assign software installation. With the deployment 
+on the domain controller, set appropriate permissions, and used GPO to assign software installation.
 
-working as expected, we confirmed that both Chrome and 7-Zip were successfully installed.  
+With the deployment working as expected, we confirmed that both Chrome and 7-Zip were successfully installed.  
 
 Next, we'll move on to configuring security policies for each department (IT, HR, Sales) to enhance system security 
 
